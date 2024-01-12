@@ -20,7 +20,8 @@ public class Ej3 {
 			System.out.print(tabla[i]);
 		}
 		
-
+		//Cierre del scanner
+		sc.close();
 	}
 
 }

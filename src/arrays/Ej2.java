@@ -22,9 +22,8 @@ public class Ej2 {
 			System.out.println(numero);
 		}
 		
-		
-		
-
+		//Cierre del Scanner
+		sc.close();
 	}
 
 }
