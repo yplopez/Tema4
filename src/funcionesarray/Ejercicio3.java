@@ -22,7 +22,7 @@ public class Ejercicio3 {
 		System.out.println("Ingrese el número límite hasta el que quiere generar números pares: ");
 		//Almaceno el valor límite en la varible fin
 		fin = sc.nextInt();
-		
+		//Muestro por consola el array que arroja el programa
 		System.out.println(Arrays.toString(rellenaPares(longitud, fin)));
 		
 		
@@ -37,10 +37,10 @@ public class Ejercicio3 {
 		Random rnd = new Random();
 		// Creo un bucle for each que recorra toda la tabla y un do-while dentro
 		// para asignar valores pares de acuerdo al valor ingresado.
-		for (int valor : table) {
+		for (int i=0; i<table.length; i++) {
 			do {
-				table[valor] = rnd.nextInt(2, fin);
-			} while (table[valor] % 2 != 0);
+				table[i] = rnd.nextInt(2, fin);
+			} while (table[i] % 2 != 0);
 		}
 		// Retorno la tabla al metodo main
 		return table;
