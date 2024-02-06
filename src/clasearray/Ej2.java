@@ -20,7 +20,7 @@ public class Ej2 {
 			//Con cada iteración al valor de fin se le suma su propia cantidad 
 			fin += i;
 			
-			//Con la clase fill se rellena la tabla con la cantidad de veces de acuerdo 
+			//Con la función fill se rellena la tabla con la cantidad de veces de acuerdo 
 			//al valor del número en cada iteración.
 			Arrays.fill(tabla, inicio, fin, i);
 			

@@ -13,7 +13,7 @@ public class Ej4 {
 		int tabla [] = new int [30];
 		
 		//Hago un bucle for de la longitud de la tabla, se generará un número
-		//aleatorio para cada espacio y se almacenará.
+		//aleatorio con la función Match.random para cada espacio y se almacenará.
 		for (int i=1; i < tabla.length; i++) {
 			numero = (int) (Math.random()*10);
 			tabla[i] = numero;
