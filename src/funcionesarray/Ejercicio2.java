@@ -31,6 +31,7 @@ public class Ejercicio2 {
 				}
 			}
 		}
+		//Retorno el valor máximo al método main donde es llamado
 		return maximo;
 
 	}

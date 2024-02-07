@@ -27,6 +27,7 @@ public class Ejercicio1 {
 		for (int valor : tabla) {
 			suma += valor;
 		}
+		//Retorno el resultado de la suma al método main
 		return suma;
 	}
 

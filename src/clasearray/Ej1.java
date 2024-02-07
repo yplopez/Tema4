@@ -32,6 +32,9 @@ public class Ej1 {
 		//Imprimo la tabla con el tamalo y valor ingresado por el usuario
 		System.out.println(Arrays.toString(tabla));
 		
+		//Cierro el scanner
+		sc.close();
+		
 		
 		
 		
