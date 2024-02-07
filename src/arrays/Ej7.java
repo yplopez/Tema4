@@ -23,8 +23,10 @@ public class Ej7 {
 		//Creo un bucle for para rrecorrer de nuevo todo el array, mostrar cada uno de los meses con
 		//el promedio de temperatura de cada mes.
 		for (int i=0; i<temperatura.length; i++) {
-			System.out.print(meses[i] + "--> ");
-			System.out.print(temperatura[i] + "º:  ");
+
+			System.out.print(meses[i]);
+			System.out.println(temperatura[i] + "º");
+
 			//Creo un bucle for para recorrer el array de de acuerdo al valor encontrado en ada índice
 			//grafique con asteriscos la temperatura encontrada
 			for (int j=0; j<temperatura[i]; j++) {				
