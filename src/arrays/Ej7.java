@@ -19,7 +19,7 @@ public class Ej7 {
 		}
 		
 		for (int i=0; i<temperatura.length; i++) {
-			System.out.println(meses[i]);
+			System.out.print(meses[i]);
 			System.out.println(temperatura[i] + "º");
 			for (int j=0; j<temperatura[i]; j++) {				
 				System.out.print("*");
